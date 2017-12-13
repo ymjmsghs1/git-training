@@ -2,7 +2,9 @@
 
 int main()
 {
-	int kor, eng, math;
+
+
+	int kor, eng, mJ;
 	int sum = 0;
 
 	math = 80;
@@ -16,5 +18,6 @@ int main()
 	printf("English : %d\n", eng);
 	printf("Math : %d\n", math);
 	printf("Sum : %d\n", sum);
+	printf("Mean : %d\n", sum/3);
 	return 0;
 }
